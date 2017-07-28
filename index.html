@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uczestnik projektu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+  <!-- Sekcja formularza -->
+  
+   <div id="form">
+       <form action="https://formspree.io/bartlomiej.chlebda@outlook.com"
+      method="POST">
+           <label for="imie">Imię</label><br>
+           <input class="ft" type="text" name="imie" id="imie"><br><br>
+           <label for="nazwisko">Nazwisko</label><br>
+           <input class="ft" type="text" name="nazwisko" id="nazwisko"><br><br>
+           <label for="mail">E-mail</label><br>
+           <input class="ft" type="text" name="mail" id="mail"><br><br>
+           <label for="tel">Telefon</label><br>
+           <input class="ft" type="text" name="tel" id="tel"><br><br>
+           <label for="miasto">Miasto</label><br>
+           <select class="ft" name="miasto" id="miasto">
+               <option value="krakow">Kraków</option>
+               <option value="warszawa">Warszawa</option>
+               <option value="gdansk">Gdańsk</option>
+           </select><br><br>
+           <label for="plec">Wybierz płeć:</label><br>
+           <label><input type="radio" value="mężczyzna" name="plec" id="plec">Meżczyzna</label><br>
+           <label><input type="radio" value="kobieta" name="plec" checked>Kobieta</label><br><br>
+           <label for="tekst">Wiadomość</label><br>
+           <textarea class="ft" name="tekst" cols="30" rows="10" maxlength="70" id="tekst"></textarea>  <br><br>
+           <input type="checkbox">
+           <label for="zgoda">Zgoda na przetwarzanie danych osobowych.</label><br><br>
+           <input class="send" type="submit" value="Wyślij">
+       </form>
+   </div>
+   
+</body>
+</html>

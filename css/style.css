@@ -1,0 +1,50 @@
+body {
+    font-family: Verdana;
+    color: #ffffff;
+    
+}
+
+ #header {
+    text-align: center;
+}
+
+#form{
+    background-color: #213b50;
+    padding: 50px;
+    width: 50%;
+}
+
+
+.ft {
+    color: #ffffff;
+    width: 300px;
+    background-color: #2b4a64;
+    border: 1px;
+    border-color: #2b4a64;
+    border-style: solid;
+}
+
+
+.ft:focus, input:focus, select:focus, textarea:focus {
+    background-color: #4e708c;
+    border-color: #ffffff;
+    border: 1px;
+    color: #ffffff;
+    border-style: solid;
+}
+
+.send{
+    width: 80px;
+    height: 50px;
+    background-color: green;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 9px;
+}
+
+.send:focus{
+    background-color: green;
+    border-radius: 9px;
+    border: 0px;
+} 
